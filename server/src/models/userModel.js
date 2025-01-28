@@ -33,6 +33,13 @@ const UserSchema = mongoose.Schema({
         type: String,
         default: 'Hey there, I am using whatsapp',
         maxLength: [100, "Status cannot exceed 100 characters"]
+    },
+    otp: {
+        type: String,
+        expires: '5m'
+    },
+    twoStepVerificationPin: {
+        type: String
     }
 },
 {

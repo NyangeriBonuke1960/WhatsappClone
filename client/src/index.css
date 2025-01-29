@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 5px;
 }
 
@@ -81,9 +81,65 @@
 .section2{
     flex: 70%;
     height: 90%;
-    border-left: 1px solid #fafafa;
+    border-left: 1px solid #dad8d8;
 }
 
 .chat-section{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.chat-section h3{
+    font-size: 25px;
+}
+
+.lines{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.lines-logo{
+    font-size: 20px;
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #adacac;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: #6b6a6a;
+}
+
+.chat-messages{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    background-color: yellow;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.chat-div-separate{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.name-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
 }

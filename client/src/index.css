@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.whats-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-logo{
+    color: green;
+    font-size: 20px;
+}
+
+.homebody{
+    display: flex;
+    height: 94%;
+}
+
+.sidebar{
+    flex: 3%;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.sidebar-1, .sidebar-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.otherside{
+    flex: 95%;
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+
+.sidebar1-logo{
+    font-size: 18px;
+}
+
+.sidebar2-logo{
+    font-size: 20px;
+}
+
+.sidebar1-logo:hover, .sidebar2-logo:hover{
+    background-color: pink;
+    width: 20px;
+}
+
+.chat{
+    display: flex;
+    height: 100%;
+}
+
+.section1{
+    flex: 30%;
+}
+
+.section2{
+    flex: 70%;
+    height: 90%;
+    border-left: 1px solid #fafafa;
+}
+
+.chat-section{
+    display: flex;
+}

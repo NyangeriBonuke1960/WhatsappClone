@@ -1,13 +1,16 @@
 import React from 'react'
 import ChatSectionOne from './ChatSectionOne'
 import ChatSectionTwo from './ChatSectionTwo'
+import { ChatProvider } from './ChatContext'
 
 const Chat = () => {
   return (
-    <div className='chat'>
-        <ChatSectionOne />
-        <ChatSectionTwo />
-    </div>
+    <ChatProvider>
+      <div className='chat'>
+          <ChatSectionOne />
+          <ChatSectionTwo />
+      </div>
+    </ChatProvider>
   )
 }
 

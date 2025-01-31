@@ -1,0 +1,8 @@
+WhatsApp Green	#25D366	Main brand color (buttons, highlights)
+Dark Green	#075E54	Header and accent color
+Light Green	#128C7E	Chat bubbles (sent messages)
+Teal Green	#34B7F1	Notification & secondary elements
+White	#FFFFFF	Background, text contrast
+Black	#000000	Icons, dark mode elements
+Light Gray	#ECE5DD	Chat background in light mode
+Dark Gray	#2C2C2C	Background in dark mode
